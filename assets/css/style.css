@@ -1,0 +1,108 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #777777;
+}
+
+html, body{
+     width: 100%;
+     height: 100%;
+     background-image: url("/assets/images/topography.png");
+}
+
+hr{
+     border-top: .5px solid #dddddd;
+}
+
+h1.h-font{
+     font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1.h-name{
+     color: white;
+}
+
+h1.h-about{
+     color: #4aaaa5;
+}
+
+p.footer-font{
+     font-size: 9px;
+     color: white;
+}
+
+.header{
+     width: 100%;
+     height: 76px;
+     background-color: white;
+     border-bottom: 1px solid #cccccc;
+}
+
+.nav-bar{
+     width: 960px;
+     height: inherit;
+     margin: auto;
+}
+
+.wrapper-name{
+     width: 480px;
+     height: inherit;
+     margin: auto;
+     float: left;
+}
+
+.name{
+     width: 209px;
+     padding: 20px;
+     background-color: #4aaaa5;
+}
+
+.nav{
+     width: 50%;
+     height: 100%;
+     margin: auto;
+     float: left;
+}
+
+.clear-float{
+     clear: left;
+}
+
+.main{
+     width: 900px;
+     margin: auto;
+     margin-top: 20px;
+     padding: 10px 30px 10px 30px;
+     background-color: white;
+     border: 1px #dddddd solid;
+}
+
+.footer{
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 50px;
+     background-color: #666666;
+     text-align: center;
+     border-top: 8px solid #4aaaa5;
+}
+/*
+.button {
+  border-right: 1px solid black;
+  color: black;
+  padding-right:15px;
+  padding-left:10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.no-right-border{
+	border: none;
+}
+*/
