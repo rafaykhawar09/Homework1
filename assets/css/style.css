@@ -90,8 +90,16 @@ a{
 }
 
 .clear-float{
-     clear: left;
+     clear: both;
+     overflow: auto;
 }
+
+.img-container{
+     float: left;
+     margin-right: 20px;
+}
+
+
 
 .main{
      width: 900px;
@@ -112,21 +120,3 @@ a{
      text-align: center;
      border-top: 8px solid #4aaaa5;
 }
-/*
-.button {
-  border-right: 1px solid black;
-  color: black;
-  padding-right:15px;
-  padding-left:10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 1px;
-  cursor: pointer;
-}
-
-.no-right-border{
-	border: none;
-}
-*/
