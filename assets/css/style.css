@@ -96,7 +96,7 @@ a{
 
 .img-container{
      float: left;
-     margin-right: 20px;
+     margin-right: 10px;
 }
 
 
@@ -119,4 +119,10 @@ a{
      background-color: #666666;
      text-align: center;
      border-top: 8px solid #4aaaa5;
+}
+
+.portfolio-container{
+     float: left;
+     margin-right: 30px;
+     margin-bottom: 40px;
 }
